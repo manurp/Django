@@ -25,12 +25,13 @@ SECRET_KEY = 'g308c&+l*m)!h=2-)xs!afj64=g=m0$$1i9+0mtnuzl*i^p85c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['manu7.pythonanywhere.com']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
